@@ -1,0 +1,243 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /*background-image: url(../imgs/bg-body.jpg);
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;*/
+    /*background-color: rgb(61, 40, 18);*/
+    background-color: rgb(142, 96, 96);
+	margin: 0;
+}
+
+.pg-logo {
+    text-align: center;
+    margin-top: 15px;
+}
+
+h1 {
+    color: rgb(199, 184, 159);
+    text-align: center;
+    padding-top: 50px;
+    font-family: Overlock;
+    /*font-weight: bold;*/
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+h4 {
+    color: rgb(199, 184, 159);
+}
+
+hr {
+    border: 1.5px solid rgb(128, 128, 128);
+    max-width: 50%;
+}
+
+.cards-top-margin{
+    margin-top: 50px;
+}
+
+.card {
+    background-color: rgb(118, 85, 73);
+    margin: 20px 10px;
+}
+
+.card-title{
+    color: wheat;
+}
+
+
+.btn-primary {
+    background-color: rgb(74, 120, 100);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: rgb(0, 160, 93);
+    border: none;
+}
+
+
+h2 {
+    color: beige;
+}
+
+p {
+    color: wheat;
+}
+
+main {
+    height: auto
+}
+
+#kosar {
+    font-size: 20px;
+    color: rgb(213, 213, 213);
+}
+
+svg {
+    color: rgb(125, 169, 150);
+}
+
+.active {
+    color: rgb(0, 160, 93) !important;
+}
+
+#rolunk {
+    margin-top: 50px;
+}
+
+#etlap {
+    margin-top: 50px;
+}
+
+footer {
+    color: wheat;
+    background-color: rgba(74, 74, 51, 0.364);
+    padding: 5px 0;
+    text-align: center;
+}
+
+.breadcrumb {
+    background-color: #343a40
+}
+
+.breadcrumb-item {
+    text-decoration: none;
+}
+
+.center-svg {
+    text-align: center;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.img-card {
+    margin-bottom: 15px;
+}
+
+.kepkozep {
+    text-align: center;
+    margin-top: 70px;
+}
+
+#kosar-felirat {
+    margin: 10px;
+}
+
+#login {
+    margin-right: 5px;
+    color: rgb(251, 251, 251);
+}
+
+#login:hover{
+    color: rgb(0, 160, 93);
+}
+
+#register {
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
+}
+
+#register:hover {
+    color: rgb(0, 160, 93);
+}
+
+.bg-dark {
+    background-color: #000000a7 !important;
+}
+
+.navbar-brand {
+    color: wheat
+}
+
+.s-s {
+    margin-top: 15px;
+}
+
+.social-icons {
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    fill: currentColor;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.social-icons:hover {
+    transform: scale(1.2);
+}
+
+#social {
+    color: wheat;
+    margin-left: 10px;
+}
+
+.form-label, .comment {
+    color: wheat;
+}
+
+.mtt {
+    margin-top: 50px;
+}
+
+#semi-c {
+    color: wheat
+}
+
+.cookie {
+    background-color: #00000094;
+    position: fixed;
+    bottom: 0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex; /* Flex display beállítása */
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    margin: auto; /* Margók beállítása 'auto'-ra */
+}
+
+.cookie .txt {
+    float: left;
+    width: 65%;
+}
+
+.txt p {
+    color: #c6c6c6;
+}
+
+.cookie .accept {
+    background-color: #40CC79;
+    color: #fff !important;
+    border-radius: 32px;
+    padding: 3px 23px;
+    font-size: 19px;
+}
+
+.cookie .accept:hover {
+    background-color: #30b867;
+}
+
+#etteremtext {
+    font-size: 18px;
+    font-weight: bold;
+    color: wheat;
+}
+
+#online {
+    color: #30b867;
+}
+
+#offline {
+    color: rgb(162, 16, 16);
+}
